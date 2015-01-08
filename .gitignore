@@ -3,3 +3,5 @@ coverage/
 html/
 tmp/
 multimap-*.gem
+Makefile
+nested_multimap_ext.o

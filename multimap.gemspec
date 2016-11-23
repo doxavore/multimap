@@ -24,4 +24,6 @@ Gem::Specification.new do |s|
   s.email    = 'josh@joshpeek.com'
   s.homepage = 'http://github.com/doxavore/multimap'
   s.license  = 'MIT'
+
+  s.add_development_dependency 'rspec', '< 2.0'
 end

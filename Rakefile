@@ -2,7 +2,7 @@ require 'rubygems/specification'
 spec = eval(File.read('multimap.gemspec'))
 
 if spec.has_rdoc
-  require 'rake/rdoctask'
+  require 'rdoc/task'
 
   Rake::RDocTask.new { |rdoc|
     rdoc.options = spec.rdoc_options

@@ -17,6 +17,10 @@ class Multiset < Set
     super
   end
 
+  def include?(e)
+    @hash.include?(e)
+  end
+
   # Returns the number of times an element belongs to the multiset.
   def multiplicity(e)
     @hash[e]
